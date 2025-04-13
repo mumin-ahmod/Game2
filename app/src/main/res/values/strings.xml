@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TimeFighter</string>
+    <string name="tap_me">Tap me!</string>
+    <string name="time_left">Time Left: %1$d</string>
+    <string name="your_score">Your Score: %1$d</string>
+    <string name="game_finished_score">Game Finished, Score: %1$d</string>
+    <string name="kill_game">Kill Game</string>
+</resources>
