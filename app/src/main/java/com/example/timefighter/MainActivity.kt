@@ -1,5 +1,6 @@
 package com.example.timefighter
 
+import androidx.appcompat.app.AppCompatActivity
 import android.nfc.Tag
 import android.os.Bundle
 import android.os.CountDownTimer
@@ -21,7 +22,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.timefighter.ui.theme.TimeFighterTheme
 
-class MainActivity : ComponentActivity() {
+class MainActivity : AppCompatActivity() {
     lateinit var gameScoreTextView: TextView
     lateinit var timeLeftTextView: TextView
     lateinit var tapMeButton: Button
