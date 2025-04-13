@@ -69,8 +69,6 @@ class MainActivity : ComponentActivity() {
 
         score =0
 
-
-
         val initialScore = getString(R.string.your_score, score)
         gameScoreTextView.text = initialScore // update state
 
